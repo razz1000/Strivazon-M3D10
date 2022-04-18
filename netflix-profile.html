@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="css/styles-netflix-profile.css" rel="stylesheet">
+    <title>Netflix</title>
+  </head>
+  <body>
+    <!-- Navbar - Just an image -->
+<nav class="navbar navbar-light">
+  <a class="navbar-brand" href="#">
+    <img src="./assets/netflix_logo.png" class="card-img-top netflix-logo" alt="Something">
+  </a>
+</nav>
+
+<div class="container">
+  <h2 class="h2-header">Edit Profile</h2>
+   <!--    Row 1  -->
+  <div class="row">
+      <div class="col-sm-12 col-md-12 col-xl-3"></div>
+       <div class="col-sm-12 col-md-12 col-xl-3 strive-image d-none d-xl-block"></div>
+        <div class="col-sm-12 col-md-12 col-xl-3">
+           <p class="strive-student-sub-heading">Strive Student</p>
+
+          <label for="language">Language:</label><br>   <!-- This is the selector -->
+          <select name="language" id="language-select">
+              <option value="English">English</option>
+              <option value="German">German</option>
+              <option value="Danish">Danish</option>
+              <option value="Portuguese">Portuguese</option>
+              <option value="French">French</option>
+              <option value="Polish">Polish</option>
+          </select>
+          
+        </div>
+        <div class="col-sm-12 col-md-12 col-xl-3"></div>
+      </div>
+      <hr class="d-none d-xl-block">
+    
+      <!-- Row number 2 -->
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-xl-3"></div>
+        <div class="col-sm-12 col-md-12 col-xl-3"> </div>
+        <div class="col-sm-12 col-md-12 col-xl-3">
+        <p class="sub-header-grey-text">Maturity Settings:</p>
+        <p class="dark-grey-background-element">ALL MATURITY RATINGS</p>
+        <h6>Show titles of all maturity ratings for this profile</h6>
+        <button id="button5">EDIT</button>
+        </div>
+        <div class="col-sm-12 col-md-12 col-xl-3"></div>
+      </div>
+      <hr class="d-none d-xl-block">
+   
+      <!-- Row number 3 -->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-xl-3"></div>
+          <div class="col-sm-12 col-md-12 col-xl-3"> </div>
+          <div class="col-sm-12 col-md-12 col-xl-3">
+            <p class="sub-header-grey-text">Autoplay controls</p>
+            <input class="checkboxes" type="checkbox" checked><p class="checkbox-text"> Autoplay next episode in a series on all devices.</p><br>
+            <input class="checkboxes" type="checkbox" checked><p class="checkbox-text"> Autoplay previews while browsing on all devices.</p>
+           
+          </div>
+          <div class="col-sm-12 col-md-12 col-xl-3"></div>
+        </div>
+        <hr class="special-hr d-none d-xl-block">
+       
+        <!-- Row number 4 -->
+       <div class="row">
+        <div class="col-sm-12 col-md-12 col-xl-3"></div>
+        <div class="col-sm-12 col-md-12 col-xl-3">
+          <button type="button" id="button1" class="btn btn-light">SAVE</button>  
+        </div>
+        <div class="col-sm-12 col-md-12 col-xl-3">
+
+        <button type="button" id="button2" class="btn btn-light">CANCEL</button>  
+        <button type="button" id="button3" class="btn btn-light">DELETE PROFILE</button>
+        </div>
+        <div class="col-sm-12 col-md-12 col-xl-3"></div>
+      </div>
+    </div>
+
+
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

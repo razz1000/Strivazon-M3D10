@@ -1,0 +1,166 @@
+body {
+    background-color: #141414;
+}
+
+p {
+    color: white;;
+}
+
+.navbar {
+background-color: #141414;
+}
+
+h2 {
+    color: white;
+}
+
+h6 {
+    color: white;
+    margin-top: 10px;
+    font-size: 11px;
+    margin-top: 1em;
+}
+
+.sub-header-grey-text {
+    color: rgb(143, 139, 139);
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.dark-grey-background-element {
+    background-color: rgb(65, 63, 63);
+    display: inline;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top 1em;
+
+}
+
+.strive-image {
+    background-image: url(data:image/png;base64,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);
+    height: 250px;
+    
+    background-repeat: no-repeat;
+    /* background-position: 280px; 
+     */
+
+}
+/* 
+.save-button {
+    float: right;
+    margin-right: 2.2em;
+}
+
+ */
+.strive-student-sub-heading {
+    background-color: grey;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#language-select {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+
+}
+
+label {
+    color: white;
+}
+
+.container1 {
+    margin: 0 auto;
+}
+
+.netflix-logo {
+    width: 100px;
+}
+
+
+hr {
+    border-bottom: 1px solid rgb(128, 125, 125) ;
+    width: 50%;
+    text-align: right;
+    margin-right: 0;
+}
+
+
+.special-hr {
+    width: 75%;
+}
+
+#button2, #button3 { 
+    background-color:  rgba(0,0,0,0.5);
+    color: grey;
+    border-radius: 0;
+    border: 1px solid grey;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-top: 1em;
+}
+
+#button1 {
+    background-color:  white;
+    color: black;
+    border-radius: 0;
+    border: 1px solid grey;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 1em;
+    
+}
+
+#button5 {
+    background-color:  rgba(0,0,0,0.5);
+    color: grey;
+    border-radius: 0;
+    border: 1px solid grey;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 1em;
+
+}
+
+
+.checkbox-text {
+    display: inline;
+    font-size: 0.65em;
+    color: grey;
+}
+
+input[type='checkbox'] {
+    color: red;
+    background-color: red;
+    border-color: red;
+
+}
+
+
+input[type= "checkbox"]:checked+ label {
+    background-color: #569cc3!important;
+    color: red;
+   }
+
+
+
+
+    .h2-header {
+        margin-left: 24%;
+
+    }
+
+    @media (max-width: 1150px) {
+        .h2-header {
+            margin-left: 0;
+    
+        }
+    }
+
+
+    .image1 {
+        height: 25px;
+    }
+

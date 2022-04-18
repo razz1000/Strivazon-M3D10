@@ -1,0 +1,39 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: #141414;
+  height: 60px;
+}
+nav .navbar-nav li a {
+  color: white;
+}
+.icon {
+  color: white;
+  position: relative;
+  top: 10px;
+  font-size: 20px;
+}
+a:link {
+  text-decoration: none;
+}
+.change-settings ul li {
+  align-items: right;
+}
+.divider {
+  width: 75%;
+  text-align: right;
+  margin-right: 0;
+}
+.admin {
+  color: #141414;
+}
+.p-text {
+  color: #c4c4c4;
+}
+h5 {
+  color: #c4c4c4;
+}
+input {
+  background-color: #c5c5c5;
+}

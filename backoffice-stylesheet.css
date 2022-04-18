@@ -1,0 +1,87 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+
+
+body {
+    background-color: rgb(20, 20, 20) ;
+    color: white;   
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: white;
+}
+
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #303030;
+    padding: 2em;
+    border-radius: 10px;
+    line-height: 20px;
+    
+}
+
+@media (min-width: 1000px) {
+    .form1 {
+        margin: 50px 25%;
+    }
+}
+
+form.validated textarea:invalid,
+form.validated input:invalid {
+    border-color: red;
+}
+
+form.validated textarea:valid,
+form.validated textarea:valid {
+    border-color: green;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;   
+}
+
+
+.buttongroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.netflix-logo {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.delete-button {
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.take-me-back-arrow {
+ text-align: center;
+ font-family: monospace;
+ cursor: pointer;
+ text-decoration: none;
+ color: white;
+}
+
+.alert-container { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+label {
+    font-size: 1.2em;
+}

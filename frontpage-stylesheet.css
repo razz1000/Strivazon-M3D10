@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(20, 20, 20);
+}
+ion-icon {
+  font-size: 24px;
+}
+.genres {
+  display: inline;
+}
+.avatar {
+  height: 30px;
+}
+h1 {
+  color: white;
+  font-family: "Kanit", sans-serif, bold;
+}
+h2 {
+  color: white;
+}
+#genre {
+  background-color: black;
+  color: white;
+}
+#iconsBorder {
+  color: white;
+}
+#movies {
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.footer-link {
+  color: rgb(155, 155, 155);
+  text-decoration: none;
+  font-size: 12px;
+}
+#shows {
+  font-family: "Kanit", sans-serif, bold, 1200;
+  font-size: 36px;
+}
+#serviceButton {
+  display: flex;
+  align-items: center;
+}
+.square {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+}
+#bottomIcon {
+  font: 35px white;
+  color: grey;
+}
+
+
+/* API generated images CSS */
+
+.row-images {
+  display: flex;
+  object-fit: cover;
+  min-width: 400px;
+  height: 192px !important;
+  cursor: pointer;
+}
+
+.row-images:hover {
+  border: 2px #303030 solid;
+}
+
+h4 {
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+}
+
+h6 {
+  font-family: monospace;
+  color: white;
+}

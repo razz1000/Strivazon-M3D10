@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+<link href="frontpage-stylesheet.css" rel="stylesheet" />
+    <title>Netflix | AWESOME</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg: rgb(20, 20, 20);"
+    >
+      <a class="navbar-brand" href="#">
+        <img
+          src="assets/Netflix_Logo_CMYK.png"
+          width="auto"
+          height="40"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TV Shows</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Movies</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recently Added</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">My List</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <ion-icon name="search-outline" class="icon"></ion-icon>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kids</a>
+                </li>
+                <ion-icon name="notifications-outline" class="icon"></ion-icon>
+                <li class="nav-item dropdown">
+                  <li><img class="avatar" src="/assets/avatar.png" alt=""></li>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-expanded="false">
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg: rgb(20, 20, 20);">
+      <a id="shows" class="navbar-brand" href="#">TV Shows</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <div class="dropdown">
+              <button id="genre" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-expanded="false">
+                Genres
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+        </ul>
+        <span class="border square"><ion-icon id="iconsBorder" name="list-outline"></ion-icon></span>
+        <span class="border square"><ion-icon id="iconsBorder" name="apps-outline"></ion-icon></span>
+      </div>
+    </nav>
+  </div>
+    <div id="movies">
+      <h2>Action Movies<h2>
+
+      <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row mx-n1 action-row">
+                      <div class="col-6 col-md-4 col-lg-2 px-1">
+                  </div>
+              </div>
+             
+              </div>
+            </div>
+        </div>
+      </div>
+        <div id="movies">
+          <h2>Romance Movies</h2>
+    
+          <div class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="row mx-n1 romance-row">
+                         
+                      </div>
+                  </div>
+                 </div>
+                </div>
+            </div>
+            </div>
+            <div id="movies">
+              <h2>Thriller Movies</h2>
+        
+               <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="row mx-n1 thriller-row">
+                      
+                  </div>
+              </div>
+             
+              </div>
+            </div>
+        </div>
+                <footer>
+                  <div class="container text-left">
+                    <ion-icon id="bottomIcon" name="logo-facebook"></ion-icon>
+                    <ion-icon id="bottomIcon" name="logo-instagram"></ion-icon>
+                    <ion-icon id="bottomIcon" name="egg-outline"></ion-icon>
+                    <ion-icon id="bottomIcon" name="logo-youtube"></ion-icon>
+                  </div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                      <ul>
+                        <p><a href="#" class="footer-link">Audio and Subtitles</a></p>
+                       <p><a  href="#" class="footer-link">Media Center</a></p>
+                       <p><a  href="#" class="footer-link">Privacy</a> </p>
+                       <p><a  href="#" class="footer-link">Contact Us</a></p>
+                      </ul>
+                      </div>
+                      <div class="col-sm">
+                        <ul>
+                          <p><a  href="#" class="footer-link">Audio Description</a> </p>
+                          <p><a  href="#" class="footer-link">Investor Relations</a> </p>
+                          <p><a  href="#" class="footer-link">Legal Notices</a> </p>
+                        </ul>
+                      </div>
+                      <div class="col-sm">
+                      <ul>
+                        <p><a  href="#" class="footer-link">Help Center</a> </p>
+                        <p><a  href="#" class="footer-link">Jobs</a> </p>
+                        <p><a  href="#" class="footer-link">Cookie Preferences</a> </p>
+                      </ul>
+                      </div>
+                      <div class="col-sm">
+                        <ul>
+                          <p><a  href="#" class="footer-link">Gift Cards</a> </p>
+                          <p><a  href="#" class="footer-link">Terms of Use</a> </p>
+                          <p><a  href="#" class="footer-link">Corporate Information</a> </p>
+                        </ul>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="container text-mid">
+                  <button type="button" class="btn btn-outline-light py-2">Service Code</button>
+                </div>
+                <div class="footer-copyright text-center py-3">©1997-2019 Netflix, Inc {i-0d0Ofode2fdf9c0de}
+                </div>
+              </footer>
+          
+    <script src="https://cdn.jsdelivr.net/npm/jquery@2.5.1/dist/jquery.slim.min.js" integrity="sha284-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy28MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha284-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="front-page-script.js"></script>
+  </body>
+</html>
